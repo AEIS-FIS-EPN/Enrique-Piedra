@@ -3,10 +3,13 @@ import Header from "../components/layout/Header";
 import { languagesItems, webProgrammingItems, mobileProgrammingItems, virtualRealityItems, frameworksItems, databasesItems, developerToolsItems } from "../lib/skills.lib";
 import { CartSkill } from "../components/carts/CartSkill";
 import Link from "next/link";
+import ParticlesComponent from "../components/particle/particles";
+
 
 export default function Home() {
   return (
     <div className="">
+      <ParticlesComponent id="particles" />
       <div className="min-h-screen flex flex-col items-center justify-center">
         <div className="flex items-center">
           <Image
@@ -23,7 +26,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+    
 
       <div className="min-h-screen flex flex-col items-center justify-center bg-slate-100 py-40" id="about-me">
         <p className=" text-4xl font-medium">About me</p>
