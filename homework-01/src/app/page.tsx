@@ -17,7 +17,7 @@ export default function Home() {
             className="rounded-full"
           />
           <div className="ml-4">
-            <p className="text-4xl font-bold">I'M</p>
+            <p className="text-4xl font-bold">I&apos;M</p>
             <p className="text-4xl font-bold text-indigo-500">ENRIQUE PIEDRA</p>
             <p className="text-lg">A developer who creates websites</p>
           </div>
